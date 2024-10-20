@@ -18,8 +18,11 @@ export const useSitesStore = defineStore('sites', () => {
         if (!update && list.value.length > 0) {
           return list.value
         }
+        const url = (import.meta.env.DEV)
+          ? `http://${location.host}/subscribe.json`
+          : `https://${location.host}/reka-test/subscribe.json`
 
-        const response = await fetch(`http://${location.host}/subscribe.json`)
+        const response = await fetch(url)
         const sites = await response.json()
 
         list.value = sites
