@@ -1,0 +1,37 @@
+[
+  {
+    "id": "trainyrbrain",
+    "description": "Test your world geography skills",
+    "subscribed": true
+  },
+  {
+    "id": "ynquiz",
+    "description": "Test your knowledge with our fun and challenging quiz game! Compete, learn, and improve with a wide range of topics.",
+    "subscribed": true
+  },
+  {
+    "id": "finditquiz",
+    "description": "Guess the song from short clips",
+    "subscribed": false
+  },
+  {
+    "id": "moviequizonline",
+    "description": "Identify films from iconic scenes",
+    "subscribed": true
+  },
+  {
+    "id": "findsuperstar",
+    "description": "Challenge your historical knowledge",
+    "subscribed": false
+  },
+  {
+    "id": "whatcountry",
+    "description": "Answer questions on various sports",
+    "subscribed": false
+  },
+  {
+    "id": "countryquiz",
+    "description": "Prove your science smarts",
+    "subscribed": true
+  }
+]
